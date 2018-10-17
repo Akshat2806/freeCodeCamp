@@ -119,6 +119,8 @@ int main()
 }
 
 ```
+#### Uses
+1. Can be used for finding shortest path in a graph with no edge weight.
 
 #### More Information:
 <!-- Please add any articles you think might be helpful to read before writing the article -->
