@@ -113,3 +113,14 @@ int main()
 	return 0;
 }
  ```
+
+### Writing Infinite Loops
+
+Sometimes it's even necessary for us to produce an infinite loop, sometimes we just by mistake end up having an infinite loop. So, let's just go through how to write an infinite loop.
+
+``` c++
+while(True)
+{
+--Operation that you have to perform--
+}
+```
