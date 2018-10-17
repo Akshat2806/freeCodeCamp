@@ -52,6 +52,8 @@ d => 40
 
 ## Get Size 
 Get size of map with size function
+_Time Complexity : O(1)_
+
 ```
 map<int, int > myMap;
 myMap[100] = 3
@@ -65,6 +67,7 @@ size of map is 1
 
 ## Insertion 
 Inserting data with insert member function.
+_Time Complexity : O(logn)_
 
 ```c++
 myMap.insert(make_pair("earth", 1));
@@ -79,6 +82,7 @@ If "sun" is already mapped before, this action will override the value mapped to
 
 ## Erase
 Erasing data with erase function
+_Time Complexity : O(1), O(logn), O(n) - depends on usage_
 
 ```
 map<int, int > myMap;
