@@ -21,6 +21,17 @@ Python allows `str` objects, or _strings_, to be expressed in a few different wa
         TypeError: 'str' object does not support item assignment
         
 
+### Note:
+Whenever we take input in python, then by default the input is taken in string format. If we have to get the input in any other format, then the input taken has to be typecasted.
+
+```python
+inp = input()
+#This takes input in string format
+
+type_inp = int(input())
+#This input has been typecasted to integer format
+```
+
 ## Reference:
 
 <a href='https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str' target='_blank' rel='nofollow'>Text Sequence Type _str_</a>
